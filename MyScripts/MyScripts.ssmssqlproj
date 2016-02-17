@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MyScripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="PLLBY63M12\ENTROPY:ENTERPRISE\zienka01">
+          <Created>2015-07-05T10:43:21.214448+02:00</Created>
+          <Type>SQL</Type>
+          <Server>PLLBY63M12\ENTROPY</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="__TODO.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__TODO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="admin.calc_db_size.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>admin.calc_db_size.sql</FullPath>
+        </FileNode>
+        <FileNode Name="admin.db_owners.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>admin.db_owners.sql</FullPath>
+        </FileNode>
+        <FileNode Name="admin.db_security_check.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>admin.db_security_check.sql</FullPath>
+        </FileNode>
+        <FileNode Name="admin.get_ss_instances.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>admin.get_ss_instances.sql</FullPath>
+        </FileNode>
+        <FileNode Name="admin.get_ss_network_info.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>admin.get_ss_network_info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="admin.logged_users.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>admin.logged_users.sql</FullPath>
+        </FileNode>
+        <FileNode Name="admin.vLastExecQueries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>admin.vLastExecQueries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="agent.enable_agent_XPs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>agent.enable_agent_XPs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="date_convert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>date_convert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="encoding.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>encoding.sql</FullPath>
+        </FileNode>
+        <FileNode Name="exist.temp_tbl.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>exist.temp_tbl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="get_tab_signature.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>get_tab_signature.sql</FullPath>
+        </FileNode>
+        <FileNode Name="group.distinct_count.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>group.distinct_count.sql</FullPath>
+        </FileNode>
+        <FileNode Name="math.arith_round.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>math.arith_round.sql</FullPath>
+        </FileNode>
+        <FileNode Name="merge_update__TEST.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>merge_update__TEST.sql</FullPath>
+        </FileNode>
+        <FileNode Name="metadata.searchColumnNames.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>metadata.searchColumnNames.sql</FullPath>
+        </FileNode>
+        <FileNode Name="model.get_temp_tab_info.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>model.get_temp_tab_info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="restore.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>restore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sproc_nesting.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sproc_nesting.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery5.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery5.sql</FullPath>
+        </FileNode>
+        <FileNode Name="table_constructor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>table_constructor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test.sql</FullPath>
+        </FileNode>
+        <FileNode Name="xact.GO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>xact.GO.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Tests" Type="99" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Staging" Type="99" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

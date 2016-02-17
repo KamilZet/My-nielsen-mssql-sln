@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 11.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MyScripts", "MyScripts.ssmssqlproj", "{E8D742F0-6422-4477-9C82-37E0FA86DA9C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "LearnExamples", "..\LearnExamples\LearnExamples.ssmssqlproj", "{6CFBD12C-88F8-4F8D-ADB4-A708691F56D4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SpmanScripts", "..\SpmanScripts\SpmanScripts.ssmssqlproj", "{B2BAF309-DA28-4DB5-81D1-1847CAB92884}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Importing", "..\Importing\Importing.ssmssqlproj", "{43398CC3-C2E2-4347-84A7-7AC86850B2FD}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Logging", "..\Logging\Logging.ssmssqlproj", "{36ACA9A5-3115-4DE4-8466-6EE78037DFDD}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Triggers", "..\Triggers\Triggers.ssmssqlproj", "{215C3FF6-9478-4C9E-A756-4BB5AC925D1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8D742F0-6422-4477-9C82-37E0FA86DA9C}.Default|Default.ActiveCfg = Default
+		{6CFBD12C-88F8-4F8D-ADB4-A708691F56D4}.Default|Default.ActiveCfg = Default
+		{B2BAF309-DA28-4DB5-81D1-1847CAB92884}.Default|Default.ActiveCfg = Default
+		{43398CC3-C2E2-4347-84A7-7AC86850B2FD}.Default|Default.ActiveCfg = Default
+		{36ACA9A5-3115-4DE4-8466-6EE78037DFDD}.Default|Default.ActiveCfg = Default
+		{1998A9E8-7DFC-460C-B233-C21747BCCADF}.Default|Default.ActiveCfg = Default
+		{215C3FF6-9478-4C9E-A756-4BB5AC925D1F}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

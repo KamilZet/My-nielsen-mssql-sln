@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SpmanScripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="PLLBY63M12\ENTROPY:ENTERPRISE\zienka01">
+          <Created>2015-10-15T17:10:05.3539412+02:00</Created>
+          <Type>SQL</Type>
+          <Server>PLLBY63M12\ENTROPY</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>SPACEMAN</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="ACN PLANOGRAM invalid names.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ACN PLANOGRAM invalid names.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ACN_PLANOGRAM trigger insert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ACN_PLANOGRAM trigger insert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ACN_PLANOGRAM trigger ONOFF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ACN_PLANOGRAM trigger ONOFF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="bay_count.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>bay_count.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CR-store-pln-map.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CR-store-pln-map.sql</FullPath>
+        </FileNode>
+        <FileNode Name="generate_spman_dat_db.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>generate_spman_dat_db.sql</FullPath>
+        </FileNode>
+        <FileNode Name="get_map_addr.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>get_map_addr.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LICENSE FILE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LICENSE FILE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NAMINGRULES trgSeparatorChange.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>NAMINGRULES trgSeparatorChange.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pub.misc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>pub.misc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RECEIVERS map.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>RECEIVERS map.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sys_usr_setts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sys_usr_setts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="trgSeparatorChange.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>trgSeparatorChange.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
