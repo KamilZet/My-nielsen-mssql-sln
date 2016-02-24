@@ -79,11 +79,23 @@
           <AssociatedConnUserName />
           <FullPath>pub.misc.sql</FullPath>
         </FileNode>
+        <FileNode Name="PUBLISHER RENAME FILE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PUBLISHER RENAME FILE.sql</FullPath>
+        </FileNode>
         <FileNode Name="RECEIVERS map.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>RECEIVERS map.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SETTINGS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SETTINGS.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>

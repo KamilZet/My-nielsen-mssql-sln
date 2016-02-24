@@ -73,6 +73,12 @@
           <AssociatedConnUserName />
           <FullPath>agent.enable_agent_XPs.sql</FullPath>
         </FileNode>
+        <FileNode Name="CHARINDEX REVERSE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CHARINDEX REVERSE.sql</FullPath>
+        </FileNode>
         <FileNode Name="date_convert.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
