@@ -61,6 +61,12 @@
           <AssociatedConnUserName />
           <FullPath>admin.logged_users.sql</FullPath>
         </FileNode>
+        <FileNode Name="admin.vLastExecQueries SQL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>admin.vLastExecQueries SQL.sql</FullPath>
+        </FileNode>
         <FileNode Name="admin.vLastExecQueries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>

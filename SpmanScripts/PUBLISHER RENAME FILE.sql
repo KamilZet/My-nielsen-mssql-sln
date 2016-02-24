@@ -4,13 +4,21 @@ GO
 if object_id('dbo.trgOnNewPublisherFile') is not null drop trigger dbo.trgOnNewPublisherFile
 GO
 
+if object_id('dbo.NewPublishedFiles') is not null drop TABLE dbo.NewPublishedFiles
+GO
+
 create trigger dbo.trgOnNewPublisherFile on dbo.SYS_PUB_JOBRESULTFILE
-for insert
+for insert,update
 as
 begin try
 begin tran
 
 
+/************************************************************
+Trigger jest uruchamiany przed powstaniem pliku
+************************************************************/
+
+CREATE table dbo.NewPublishedFiles(jobid int,oldUrl nvarchar(1000),plnName nvarchar(1000),parentDir nvarchar(512),commandText varchar(4000),dtStamp datetime2)
 
 create table #NewFiles (jobId int,oldUrl nvarchar(1000),plnName nvarchar(1000),parentDir nvarchar(512),commandText varchar(4000))
 
@@ -20,6 +28,7 @@ INSERT INTO #NewFiles (
 	,plnName
 	,parentDir
 )
+OUTPUT INSERTED.*,getdate() into dbo.NewPublishedFiles
 	SELECT
 		i.JOBID
 		,i.URL
@@ -29,7 +38,7 @@ INSERT INTO #NewFiles (
 		INSERTED i
 		JOIN SYS_PUB_JOBUNITPLANOSELECTION jups ON i.JOBID = jups.JOBID
 		JOIN [EURO-C].dbo.PLANO_KEY pk ON jups.SELECTION = pk.Key_id
-	WHERE len(i.URL) = 216
+	--WHERE len(i.URL) = 216
 
 UPDATE #NewFiles
 --SET commandText = 'MOVE /Y "' + oldUrl + '" "' + left(parentDir + plnName,250) + '.pdf"'
