@@ -13,6 +13,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Logging", "..\Logging\Loggi
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Triggers", "..\Triggers\Triggers.ssmssqlproj", "{215C3FF6-9478-4C9E-A756-4BB5AC925D1F}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SpmanScripts.RenamePublisherOutput", "..\SpmanScripts.RenamePublisherOutput\SpmanScripts.RenamePublisherOutput.ssmssqlproj", "{38846314-6BAB-4E33-8451-40688C629491}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -24,7 +26,8 @@ Global
 		{43398CC3-C2E2-4347-84A7-7AC86850B2FD}.Default|Default.ActiveCfg = Default
 		{36ACA9A5-3115-4DE4-8466-6EE78037DFDD}.Default|Default.ActiveCfg = Default
 		{215C3FF6-9478-4C9E-A756-4BB5AC925D1F}.Default|Default.ActiveCfg = Default
-		{E1EA9364-38E3-4217-9D14-79CE72D3F582}.Default|Default.ActiveCfg = Default
+		{C1ED0B34-835E-46B6-A02B-90EC3581D230}.Default|Default.ActiveCfg = Default
+		{38846314-6BAB-4E33-8451-40688C629491}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
