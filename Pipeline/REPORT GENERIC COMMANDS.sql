@@ -2,7 +2,9 @@ USE DATA_SAMPLES
 GO
 
 
-
+/************************************************************
+WriteHere
+************************************************************/
 SELECT
 	[industry group]			AS INDUSTRY_GROUP
 	,CASE
@@ -20,8 +22,28 @@ GROUP BY	[industry group]
 ORDER BY
 	[industry group] ASC
 
+/************************************************************
 
+************************************************************/
+SELECT
+	[industry group]						AS INDUSTRY_GROUP
+	,[month]
+	,CASE
+		WHEN probablity = 1 THEN 'ROH'
+		WHEN probablity <= 1 THEN 'OUTLOOK'
+	END										AS COMPLETION_TYPE
+	,SUM(COALESCE([Weighted Revenue],0.0))	AS TOTAL
+FROM
+	pipedata
+GROUP BY	[industry group]
+			,[month]
+			,CASE
+				WHEN probablity = 1 THEN 'ROH'
+				WHEN probablity <= 1 THEN 'OUTLOOK'
+			END
+/************************************************************
 
+************************************************************/
 SELECT
 	INDUSTRY_GROUP
 	,COMPLETION_TYPE
@@ -36,7 +58,7 @@ SELECT
 	,COALESCE([9],0.0)	AS SEPTEMBER
 	,COALESCE([10],0.0)	AS OCTOBER
 	,COALESCE([11],0.0)	AS NOVEMBER
-	,COALESCE([12],0.0)	AS DECEMBER
+	,iif([12] IS null,0.0,[12])	AS DECEMBER
 FROM
 	(SELECT
 		[industry group] AS INDUSTRY_GROUP

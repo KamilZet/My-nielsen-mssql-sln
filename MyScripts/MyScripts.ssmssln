@@ -15,6 +15,10 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Triggers", "..\Triggers\Tri
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SpmanScripts.RenamePublisherOutput", "..\SpmanScripts.RenamePublisherOutput\SpmanScripts.RenamePublisherOutput.ssmssqlproj", "{38846314-6BAB-4E33-8451-40688C629491}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Pipeline", "..\Pipeline\Pipeline.ssmssqlproj", "{A3BA9115-CA3F-472C-A241-2424516A621D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "__Exam.70461", "..\__Exam.70461\__Exam.70461.ssmssqlproj", "{10EC40D7-4B90-4186-AD5B-B56B67CDA91A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -26,8 +30,10 @@ Global
 		{43398CC3-C2E2-4347-84A7-7AC86850B2FD}.Default|Default.ActiveCfg = Default
 		{36ACA9A5-3115-4DE4-8466-6EE78037DFDD}.Default|Default.ActiveCfg = Default
 		{215C3FF6-9478-4C9E-A756-4BB5AC925D1F}.Default|Default.ActiveCfg = Default
-		{C1ED0B34-835E-46B6-A02B-90EC3581D230}.Default|Default.ActiveCfg = Default
 		{38846314-6BAB-4E33-8451-40688C629491}.Default|Default.ActiveCfg = Default
+		{A3BA9115-CA3F-472C-A241-2424516A621D}.Default|Default.ActiveCfg = Default
+		{D25197FF-8802-4FC3-82FC-ABAE8B780CC0}.Default|Default.ActiveCfg = Default
+		{10EC40D7-4B90-4186-AD5B-B56B67CDA91A}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

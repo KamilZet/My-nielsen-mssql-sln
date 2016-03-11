@@ -43,11 +43,23 @@
           <AssociatedConnUserName />
           <FullPath>extended_props.sql</FullPath>
         </FileNode>
+        <FileNode Name="missing_group.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>missing_group.sql</FullPath>
+        </FileNode>
         <FileNode Name="select_as_sp_param.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>select_as_sp_param.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
         <FileNode Name="string_of_digits.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
