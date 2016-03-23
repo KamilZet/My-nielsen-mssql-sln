@@ -4,21 +4,45 @@ INSERT @t
 	VALUES (1,1),(1,0.9),(2,0.9)
 
 
+/************************************************************
+All data from union
+************************************************************/
+
+SELECT
+	k
+	,'roh'			AS t
+	,IIF(v = 1,v,0)	AS v
+FROM
+	@t UNION ALL SELECT
+	k
+	,'out'
+	,IIF(v <= 1,v,0)
+FROM
+	@t
+
+/************************************************************
+Solution with union set operator
+************************************************************/
+
 SELECT
 	k
 	,t
-	,sum(v)
+	,SUM(v)
 FROM
-(SELECT
-	k,'roh' as t,iif(v = 1,v,0) as v
-	FROM @t
-	union all
-select
-	k,'out',iif(v <= 1,v,0)
-	from @t
-) x
-group BY k,t
-order by k,t
+	(SELECT
+		k
+		,'roh' AS t
+		,IIF(v = 1,v,0) AS v
+	FROM @t UNION ALL SELECT
+		k
+		,'out'
+		,IIF(v <= 1,v,0)
+	FROM @t) x
+GROUP BY	k
+			,t
+ORDER BY
+	k
+	,t
 
 
 /************************************************************
@@ -28,19 +52,21 @@ WriteHere
 SELECT
 	k
 	,t
-	,sum(v)
+	,SUM(v)
 FROM
-(SELECT
-	k,'roh' as t,isnull(v,0) as v
+	(SELECT
+		k
+		,'roh' AS t
+		,ISNULL(v,0) AS v
 	FROM @t
-	where v = 1
-	union all
-select
-	k,'out',isnull(v,0)
-	from @t
-	where v <= 1
-) x
-group BY k,t
+	WHERE v = 1 UNION ALL SELECT
+		k
+		,'out'
+		,ISNULL(v,0)
+	FROM @t
+	WHERE v <= 1) x
+GROUP BY	k
+			,t
 
 
 /************************************************************
@@ -80,4 +106,5 @@ FROM
 GROUP BY	x.k
 			,x.t
 ORDER BY
-	x.k,x.t
+	x.k
+	,x.t

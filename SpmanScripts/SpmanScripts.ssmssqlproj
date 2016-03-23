@@ -49,11 +49,23 @@
           <AssociatedConnUserName />
           <FullPath>CR-store-pln-map.sql</FullPath>
         </FileNode>
-        <FileNode Name="generate_spman_dat_db.sql">
+        <FileNode Name="GENERATE_DAT_DB_V111.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>generate_spman_dat_db.sql</FullPath>
+          <FullPath>GENERATE_DAT_DB_V111.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GENERATE_DAT_DB_V120.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GENERATE_DAT_DB_V120.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GENERATE_SYS_DB_V120.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GENERATE_SYS_DB_V120.sql</FullPath>
         </FileNode>
         <FileNode Name="get_map_addr.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
@@ -79,6 +91,12 @@
           <AssociatedConnUserName />
           <FullPath>PRODUCT CLEANING.sql</FullPath>
         </FileNode>
+        <FileNode Name="PRODUCT_CLEANING_MSSQL2000.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PRODUCT_CLEANING_MSSQL2000.sql</FullPath>
+        </FileNode>
         <FileNode Name="pub.misc.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
@@ -96,6 +114,18 @@
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SETTINGS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="STOREID merge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>STOREID merge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="STOREID mismatch.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>STOREID mismatch.sql</FullPath>
         </FileNode>
         <FileNode Name="trgSeparatorChange.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
