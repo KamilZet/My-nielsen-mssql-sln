@@ -17,7 +17,29 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SpmanScripts.RenamePublishe
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Pipeline", "..\Pipeline\Pipeline.ssmssqlproj", "{A3BA9115-CA3F-472C-A241-2424516A621D}"
 EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "__Exam.70461", "..\__Exam.70461\__Exam.70461.ssmssqlproj", "{10EC40D7-4B90-4186-AD5B-B56B67CDA91A}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MyScripts.Compare", "..\MyScripts.Compare\MyScripts.Compare.ssmssqlproj", "{D6AF18A4-D087-4F60-8331-CAF38EA60C59}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MyScripts.DataTypes", "MyScripts.DataTypes\MyScripts.DataTypes.ssmssqlproj", "{45AA41FE-B878-4579-82F7-604D9B497FBC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "FileTables", "..\FileTables\FileTables.ssmssqlproj", "{2A31E62D-B2BF-438E-95CD-8A39814EDE3B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "egzamin", "..\egzamin_70461\scripts\scripts\egzamin.ssmssqlproj", "{5C1F0571-6421-4232-BB39-23D79A127C0E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MyScripts.DbSizing", "..\MyScripts.DbSizing\MyScripts.DbSizing.ssmssqlproj", "{CC09549E-7234-4334-9586-0CD3F5DA0953}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SpmanScripts.PositionLits", "..\SpmanScripts.PositionLits\SpmanScripts.PositionLits.ssmssqlproj", "{995A1F23-AF4E-489D-8C28-5D5641ECEDCF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MyScripts.BulkInsert", "..\MyScripts.BulkInsert\MyScripts.BulkInsert.ssmssqlproj", "{E5FF58FA-3BFB-40F1-8984-CE28F5FB15F3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SpmanScripts.Publishing", "..\SpmanScripts.Publishing\SpmanScripts.Publishing.ssmssqlproj", "{9222BD88-B1B5-4B34-99CE-5EE886C2460B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MyScripts.StringProcessing", "..\MyScripts.StringProcessing\MyScripts.StringProcessing.ssmssqlproj", "{E4BE5A2F-AB1A-44E8-9844-7F3D4F60E28A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MyScripts.QuerySchema", "..\MyScripts.QuerySchema\MyScripts.QuerySchema.ssmssqlproj", "{F0ADB71D-F69B-4571-9147-DB8CE6A67F2E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SpmanScripts.Mirror", "SpmanScripts.Mirror\SpmanScripts.Mirror.ssmssqlproj", "{DB169940-3A00-4DD2-B703-8FC92C6B23A7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MyScripts.ConnectivityDiagnostic", "..\MyScripts.ConnectivityDiagnostic\MyScripts.ConnectivityDiagnostic.ssmssqlproj", "{2F133B17-018C-47D1-94C9-3A451DF5EA77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,8 +54,19 @@ Global
 		{215C3FF6-9478-4C9E-A756-4BB5AC925D1F}.Default|Default.ActiveCfg = Default
 		{38846314-6BAB-4E33-8451-40688C629491}.Default|Default.ActiveCfg = Default
 		{A3BA9115-CA3F-472C-A241-2424516A621D}.Default|Default.ActiveCfg = Default
-		{D25197FF-8802-4FC3-82FC-ABAE8B780CC0}.Default|Default.ActiveCfg = Default
-		{10EC40D7-4B90-4186-AD5B-B56B67CDA91A}.Default|Default.ActiveCfg = Default
+		{D6AF18A4-D087-4F60-8331-CAF38EA60C59}.Default|Default.ActiveCfg = Default
+		{45AA41FE-B878-4579-82F7-604D9B497FBC}.Default|Default.ActiveCfg = Default
+		{2A31E62D-B2BF-438E-95CD-8A39814EDE3B}.Default|Default.ActiveCfg = Default
+		{5C1F0571-6421-4232-BB39-23D79A127C0E}.Default|Default.ActiveCfg = Default
+		{CC09549E-7234-4334-9586-0CD3F5DA0953}.Default|Default.ActiveCfg = Default
+		{995A1F23-AF4E-489D-8C28-5D5641ECEDCF}.Default|Default.ActiveCfg = Default
+		{E5FF58FA-3BFB-40F1-8984-CE28F5FB15F3}.Default|Default.ActiveCfg = Default
+		{9222BD88-B1B5-4B34-99CE-5EE886C2460B}.Default|Default.ActiveCfg = Default
+		{E4BE5A2F-AB1A-44E8-9844-7F3D4F60E28A}.Default|Default.ActiveCfg = Default
+		{F0ADB71D-F69B-4571-9147-DB8CE6A67F2E}.Default|Default.ActiveCfg = Default
+		{DB169940-3A00-4DD2-B703-8FC92C6B23A7}.Default|Default.ActiveCfg = Default
+		{405B79CD-E5A1-4A42-8874-68DE42E83DB9}.Default|Default.ActiveCfg = Default
+		{2F133B17-018C-47D1-94C9-3A451DF5EA77}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

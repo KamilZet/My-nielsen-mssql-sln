@@ -1,4 +1,4 @@
-USE SPACEMAN
+USE SPACEMAN_SYS
 GO
 
 SELECT
@@ -14,7 +14,7 @@ with c(plnid,plnname,mysplnid,storeid,storename,rn) as ( SELECT
 	,rec.CONTENTRECEIVERID
 	,r.name
 	,ROW_NUMBER() over (partition by myspln.PLANOID ORDER BY rec.CONTENTRECEIVERID asc) as rn
-FROM ACN_PLANOGRAMS pln
+FROM spaceman.dbo.ACN_PLANOGRAMS pln
 JOIN SYS_MYS_PLANOCONTAINER myspln
 	ON pln.PLN_ID = myspln.PLANOID
 JOIN USR_CR_CONTENTRECVRPLANOGRAMS rec

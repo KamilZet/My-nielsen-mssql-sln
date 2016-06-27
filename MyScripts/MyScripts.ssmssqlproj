@@ -15,6 +15,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="PLLBY63M12\ENTROPY:sa">
+          <Created>2016-03-24T14:35:40.0909872+01:00</Created>
+          <Type>SQL</Type>
+          <Server>PLLBY63M12\ENTROPY</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>SPACEMAN</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
@@ -24,12 +36,6 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>__TODO.sql</FullPath>
-        </FileNode>
-        <FileNode Name="admin.calc_db_size.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>admin.calc_db_size.sql</FullPath>
         </FileNode>
         <FileNode Name="admin.db_owners.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
@@ -61,6 +67,18 @@
           <AssociatedConnUserName />
           <FullPath>admin.logged_users.sql</FullPath>
         </FileNode>
+        <FileNode Name="admin.my_permissions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>admin.my_permissions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="admin.users_mapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>admin.users_mapping.sql</FullPath>
+        </FileNode>
         <FileNode Name="admin.vLastExecQueries SQL.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
@@ -74,9 +92,9 @@
           <FullPath>admin.vLastExecQueries.sql</FullPath>
         </FileNode>
         <FileNode Name="agent.enable_agent_XPs.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>agent.enable_agent_XPs.sql</FullPath>
         </FileNode>
         <FileNode Name="CHARINDEX REVERSE.sql">
@@ -116,8 +134,8 @@
           <FullPath>group.distinct_count.sql</FullPath>
         </FileNode>
         <FileNode Name="math.arith_round.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>math.arith_round.sql</FullPath>
         </FileNode>
@@ -146,8 +164,8 @@
           <FullPath>restore.sql</FullPath>
         </FileNode>
         <FileNode Name="sproc_nesting.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>sproc_nesting.sql</FullPath>
         </FileNode>

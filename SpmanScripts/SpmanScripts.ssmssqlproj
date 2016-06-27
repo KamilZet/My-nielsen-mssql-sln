@@ -49,6 +49,18 @@
           <AssociatedConnUserName />
           <FullPath>CR-store-pln-map.sql</FullPath>
         </FileNode>
+        <FileNode Name="DUPLICATED PLANOCONTAINER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DUPLICATED PLANOCONTAINER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FIX PlanogramId,Action...missing.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FIX PlanogramId,Action...missing.sql</FullPath>
+        </FileNode>
         <FileNode Name="GENERATE_DAT_DB_V111.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
@@ -85,6 +97,12 @@
           <AssociatedConnUserName />
           <FullPath>NAMINGRULES trgSeparatorChange.sql</FullPath>
         </FileNode>
+        <FileNode Name="PLANOCONTAINER mismached plns.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PLANOCONTAINER mismached plns.sql</FullPath>
+        </FileNode>
         <FileNode Name="PRODUCT CLEANING.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
@@ -115,6 +133,12 @@
           <AssociatedConnUserName />
           <FullPath>SETTINGS.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
         <FileNode Name="STOREID merge.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
@@ -132,6 +156,18 @@
           <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>trgSeparatorChange.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRUNCATE CONNECTIVITY.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TRUNCATE CONNECTIVITY.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vSegmentToPln.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PLLBY63M12\ENTROPY:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PLLBY63M12\ENTROPY</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vSegmentToPln.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
