@@ -41,6 +41,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SpmanScripts.Mirror", "Spma
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MyScripts.ConnectivityDiagnostic", "..\MyScripts.ConnectivityDiagnostic\MyScripts.ConnectivityDiagnostic.ssmssqlproj", "{2F133B17-018C-47D1-94C9-3A451DF5EA77}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Spman.StoreLinking", "..\Spman.StoreLinking\Spman.StoreLinking.ssmssqlproj", "{27CC755B-3C1F-4609-8BFA-E27A9B5DDA16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -65,8 +67,9 @@ Global
 		{E4BE5A2F-AB1A-44E8-9844-7F3D4F60E28A}.Default|Default.ActiveCfg = Default
 		{F0ADB71D-F69B-4571-9147-DB8CE6A67F2E}.Default|Default.ActiveCfg = Default
 		{DB169940-3A00-4DD2-B703-8FC92C6B23A7}.Default|Default.ActiveCfg = Default
-		{405B79CD-E5A1-4A42-8874-68DE42E83DB9}.Default|Default.ActiveCfg = Default
 		{2F133B17-018C-47D1-94C9-3A451DF5EA77}.Default|Default.ActiveCfg = Default
+		{0AA6A98E-E891-465F-AD56-8D5AEBA1B259}.Default|Default.ActiveCfg = Default
+		{27CC755B-3C1F-4609-8BFA-E27A9B5DDA16}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
